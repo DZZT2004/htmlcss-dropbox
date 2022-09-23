@@ -1,3 +1,12 @@
+html,body{
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+body{
+    margin-left: 0px;
+    margin-right: 0px;
+}
+
 .logo{
     margin: 1rem;
 }
@@ -24,7 +33,6 @@ ul > a{
     margin: 0 2rem 0 2rem;
     text-decoration: none;
     color: black;
-    font-family: Arial, Helvetica, sans-serif;
 }
 
 .inizia{
@@ -38,4 +46,45 @@ ul > a{
 
 .contenitore1{
     display: flex;
+    flex-flow: row wrap;
+    padding: 0 350px 0 400px;
+    background-color: lightsteelblue;
+}
+
+.contenitore1 > h1{
+    flex-basis: 100%;
+    font-size: 5rem;
+}
+
+.gratuita{
+    flex-basis: 30%;
+}
+
+.jumbo{
+    max-width: 70%;
+    position: relative;
+    top: 4rem;
+}
+
+.gratuita > p{
+    letter-spacing: 0.03em;
+    line-height: 1.5rem;
+}
+
+.gratuita > button{
+    background-color: rgb(27, 64, 215);
+    color: white;
+    width: 12rem;
+    height: 2.2rem;
+    border: none;
+    margin: 1rem 0 2rem 0;
+}
+
+.gratuita > span{
+    letter-spacing: 0.03em;
+}
+
+.fa-arrow-down{
+    font-size: 3rem;
+    margin-top: 5rem;
 }
