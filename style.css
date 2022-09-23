@@ -35,3 +35,7 @@ ul > a{
     border: none;
     margin: 0 2rem 0 1rem;
 }
+
+.contenitore1{
+    display: flex;
+}
