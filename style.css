@@ -5,14 +5,11 @@ html,body{
 body{
     margin-left: 0px;
     margin-right: 0px;
+    margin-bottom: 0px;
 }
 
 .logo{
     margin: 1rem;
-}
-
-header{
-    
 }
 
 nav{
@@ -280,7 +277,7 @@ form{
     margin: auto;
     width: 1152px;
     margin-top: 5rem;
-    margin-bottom: 10rem;
+    margin-bottom: -300px;
     letter-spacing: 0.04rem;
 }
 
@@ -437,4 +434,38 @@ form{
     width: 100%;
     margin-bottom: 1rem;
     margin-top: 1rem;
+}
+
+.contenitore7{
+    display: flex;
+    flex-direction: row;
+    background-color: black;
+    color: white;
+    padding: 4rem 10rem 8rem 18rem;
+    margin-top: 6rem;
+}
+
+.contenitore7 > div{
+    display: block;
+    width: 25%;
+    margin-right: 0px;
+    letter-spacing: 0.03em;
+    line-height: 3rem;
+}
+
+footer{
+    background-color: black;
+    color: lightgray;
+    margin-top: -15px;
+    height: 100px;
+}
+
+footer > hr{
+    width: 8%;
+    margin-left: 290px;
+    margin-bottom: 30px;
+}
+
+footer > span {
+    margin-left: 290px;
 }
