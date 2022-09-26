@@ -202,3 +202,35 @@ form{
 .team > .interiore > p{
     margin-top: 4rem;
 }
+
+.contenitore3{
+    width: 1152px;
+    display: flex;
+    margin: auto;
+    margin-top: 9rem;
+    gap: 50px;
+}
+
+.contenitore3 > img{
+    flex-basis: 65%;
+    width: 65%;
+}
+
+.contenitore3 > div{
+    margin-top: 4rem;
+}
+
+.contenitore3 > div > p{
+    line-height: 1.3rem;
+    letter-spacing: 0.03rem;
+}
+
+.contenitore3 > div > button{
+    background-color: white;
+    height: 2.3rem;
+    width: 9rem;
+    margin: auto;
+    color: black;
+    border: 1px solid black;
+    margin-top: 1.5rem;
+}
