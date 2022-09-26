@@ -265,3 +265,157 @@ form{
     letter-spacing: 0.04rem;
     line-height: 1.4rem;
 }
+
+.business3{
+    text-align: left;
+    margin: auto;
+    width: 1152px;
+    margin-top: 10rem;
+    letter-spacing: 0.04rem;
+}
+
+.clienti{
+    display: block;
+    text-align: left;
+    margin: auto;
+    width: 1152px;
+    margin-top: 5rem;
+    margin-bottom: 10rem;
+    letter-spacing: 0.04rem;
+}
+
+.contenitore5{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+}
+
+.contenitore5 > div{
+    height: 18rem;
+}
+
+.contenitore5 > div > img{
+    width: 50%;
+    position: relative;
+    margin: auto;
+    top: 35%;
+    left: 26%;
+}
+
+.contenitore5 > div:nth-child(1){
+    background-color: rgb(138, 222, 150);
+    border: 10px solid rgb(181, 233, 181);
+    box-sizing: border-box;
+    flex-basis: 19.8rem;
+}
+
+.contenitore5 > div:nth-child(2){
+    background-color: rgb(123, 12, 12);
+    flex-basis: 19.8rem;
+}
+
+.contenitore5 > div:nth-child(3){
+    background-color: rgb(232, 226, 226);
+    flex-basis: 19.8rem;
+}
+
+.contenitore5 > div:nth-child(4){
+    background-color: rgb(232, 226, 226);
+    flex-basis: 19.8rem;
+}
+
+.contenitore5 > div:nth-child(5){
+    background-color: rgb(205, 38, 38);
+    flex-basis: 19.8rem;
+}
+
+.contenitore5 > div:nth-child(6){
+    background-color: rgb(189, 239, 239);
+    padding-top: 3rem;
+    flex-basis: 19.8rem;
+    box-sizing: border-box;
+}
+
+.contenitore5 > div:nth-child(7){
+    background-color: rgb(0, 157, 255);
+    padding-top: 3rem;
+    box-sizing: border-box;
+    flex-basis: 19.8rem;
+}
+
+.contenitore5 > div:nth-child(8){
+    background-color: red;
+    padding-top: 1rem;
+    box-sizing: border-box;
+    flex-basis: 19.8rem;
+}
+
+.contenitore5 > div:nth-child(9){
+    background-color: rgb(232, 226, 226);
+    flex-basis: 19.8rem;
+}
+
+.contenitore5 > div:nth-child(10){
+    background-color: rgb(232, 226, 226);
+    flex-basis: 19.8rem;
+}
+
+.contenitore5 > div:nth-child(11){
+    background-color: blue;
+    padding-top: 1rem;
+    box-sizing: border-box;
+    flex-basis: 19.8rem;
+}
+
+.contenitore5 > div:nth-child(12){
+    background-color: rgb(209, 209, 74);
+    box-sizing: border-box;
+    flex-basis: 19.8rem;
+}
+
+
+.speciale{
+    position: relative;
+    left: 39.6rem;
+    top: 31.2rem;
+    height: 500px;
+    width: 633px;
+    align-self: center;
+    padding: 3rem;
+    box-sizing: border-box;
+}
+
+.speciale > img{
+    fill: black;
+}
+
+.speciale > hr{
+    margin-bottom: 2rem;
+    margin-top: 2rem;
+    width: 20%;
+    margin-left: 0px;
+}
+
+.speciale2{
+    flex-basis: 100%;
+    background-color: rgb(171, 219, 243);
+}
+
+.speciale2 > h1{
+    color: rgb(124, 20, 20);
+    display: inline-block;
+    margin-top: 7rem;
+    margin-left: 33.5rem;
+}
+
+.speciale2 > button{
+    background-color: white;
+    color: black;
+    width: 16rem;
+    height: 2.2rem;
+    border: none;
+    position: relative;
+    left: 17rem;
+    bottom: 2.4rem;
+    
+}
