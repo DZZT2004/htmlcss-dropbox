@@ -419,3 +419,22 @@ form{
     bottom: 2.4rem;
     
 }
+
+.contenitore6{
+    width: 1152px;
+    display: flex;
+    margin: auto;
+    margin-top: 7rem;
+    flex-direction: column;
+}
+
+.fa-angle-down{
+    float: right;
+    margin-right: 3rem;
+}
+
+.contenitore6 > hr{
+    width: 100%;
+    margin-bottom: 1rem;
+    margin-top: 1rem;
+}
